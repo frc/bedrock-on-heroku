@@ -54,6 +54,7 @@
     "tillkruss/redis-object-cache": "dev-frc",
     "frc/wp-env-heroku-cleardb": "~1.0.1",
     "frc/wp-env-heroku-jawsdb": "~1.0.0",
+    "frc/wp-env-heroku-jawsdb-maria": "~1.0.0",
     "frc/wp-env-heroku-redis": "~1.0.0",
     "frc/wp-env-heroku-sendgrid": "~1.0.0",
     "frc/wp-env-heroku-amazon-aws": "~1.0.0",
