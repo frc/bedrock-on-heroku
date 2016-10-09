@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "04e5d62ba4a94860063ee99fd66686bf",
-    "content-hash": "7a85bbd1b0bd756d95e003dfad407140",
+    "hash": "fb1dc504d4507001ea4f5731242d52f8",
+    "content-hash": "d967d33d8bf6833d453b855d55384e8b",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2250,15 +2250,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
-            "version": "0.3.7",
+            "version": "1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
-                "reference": "tags/0.3.7"
+                "reference": "tags/1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2290,15 +2290,15 @@
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.6.9",
+            "version": "1.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
-                "reference": "tags/1.6.9"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.1.6.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
                 "reference": null,
                 "shasum": null
             },
