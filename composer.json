@@ -29,7 +29,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/frc/wp-amazon-s3-and-cloudfront"
+      "url": "https://github.com/frc/wp-env-heroku-jawsdb-maria"
     },
     {
       "type": "vcs",
@@ -47,7 +47,7 @@
   "require": {
     "ext-redis": "*",
     "frc/batcache": "~1.2-p1",
-    "deliciousbrains/wp-amazon-s3-and-cloudfront": "dev-frc",
+    "deliciousbrains/wp-amazon-s3-and-cloudfront": "~1.1",
     "wpackagist-plugin/amazon-web-services": "~0.3.2",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1.6.2",
     "wpackagist-plugin/limit-login-attempts": "~1.7.1",
@@ -63,7 +63,7 @@
     "php": "^7.0",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "^4.5.1",
+    "johnpbloch/wordpress": "^4.6.1",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "koodimonni-language/core-fi": "*"
