@@ -88,12 +88,14 @@
     "post-update-cmd": [
       "cp web/app/plugins/wordpress-mu-domain-mapping/sunrise.php web/app/sunrise.php",
       "cp web/app/plugins/redis-object-cache/includes/object-cache.php web/app/object-cache.php",
-      "cp web/app/mu-plugins/batcache/advanced-cache.php web/app/advanced-cache.php"
+      "cp web/app/mu-plugins/batcache/advanced-cache.php web/app/advanced-cache.php",
+      "rm -rf web/wp/wp-content/themes/*/"
     ],
     "post-install-cmd": [
       "cp web/app/plugins/wordpress-mu-domain-mapping/sunrise.php web/app/sunrise.php",
       "cp web/app/plugins/redis-object-cache/includes/object-cache.php web/app/object-cache.php",
-      "cp web/app/mu-plugins/batcache/advanced-cache.php web/app/advanced-cache.php"
+      "cp web/app/mu-plugins/batcache/advanced-cache.php web/app/advanced-cache.php",
+      "rm -rf web/wp/wp-content/themes/*/"
     ],
     "test": [
       "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
