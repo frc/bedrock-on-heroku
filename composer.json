@@ -50,6 +50,7 @@
     "deliciousbrains/wp-amazon-s3-and-cloudfront": "~1.1",
     "wpackagist-plugin/amazon-web-services": "~1.0",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1.10.1",
+    "koodimonni/composer-dropin-installer": "~1.0.2",
     "wpackagist-plugin/limit-login-attempts": "~1.7.1",
     "tillkruss/redis-object-cache": "dev-frc",
     "frc/wp-env-heroku-cleardb": "~1.0.1",
@@ -57,7 +58,7 @@
     "frc/wp-env-heroku-jawsdb-maria": "~1.0.0",
     "frc/wp-env-heroku-redis": "~1.0.0",
     "frc/wp-env-heroku-sendgrid": "~1.0.0",
-    "frc/wp-env-heroku-amazon-aws": "~1.0.0",
+    "frc/wp-env-heroku-amazon-aws": "~1.1.0",
     "wpackagist-plugin/wordpress-mu-domain-mapping": "~0.5.5",
     "frc/wp-harness": "^1.0",
     "php": "^7.0",
@@ -80,7 +81,12 @@
     },
     "dropin-paths": {
       "web/app/languages/": ["vendor:koodimonni-language"],
-      "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"]
+      "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "web/app/": [
+        "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php",
+        "package:tillkruss/redis-object-cache:includes/object-cache.php",
+        "package:frc/batcache:advanced-cache.php"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },
@@ -98,7 +104,7 @@
       "rm -rf web/wp/wp-content/themes/*/"
     ],
     "test": [
-      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
+      "vendor/bin/phpcs --ignore=web/wp/,web/app/,vendor/,config/ -n -s ."
     ]
   }
 }
