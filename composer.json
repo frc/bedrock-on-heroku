@@ -84,7 +84,6 @@
       "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
       "web/app/": [
         "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php",
-        "package:tillkruss/redis-object-cache:includes/object-cache.php",
         "package:frc/batcache:advanced-cache.php"
       ]
     },
@@ -92,15 +91,11 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "cp web/app/plugins/wordpress-mu-domain-mapping/sunrise.php web/app/sunrise.php",
       "cp web/app/plugins/redis-object-cache/includes/object-cache.php web/app/object-cache.php",
-      "cp web/app/mu-plugins/batcache/advanced-cache.php web/app/advanced-cache.php",
       "rm -rf web/wp/wp-content/themes/*/"
     ],
     "post-install-cmd": [
-      "cp web/app/plugins/wordpress-mu-domain-mapping/sunrise.php web/app/sunrise.php",
       "cp web/app/plugins/redis-object-cache/includes/object-cache.php web/app/object-cache.php",
-      "cp web/app/mu-plugins/batcache/advanced-cache.php web/app/advanced-cache.php",
       "rm -rf web/wp/wp-content/themes/*/"
     ],
     "test": [
