@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14eadd164021e3b0aa9782d88e5de590",
-    "content-hash": "30aa42a6a34f9ba76ad5e766abd36097",
+    "hash": "e803e6d7faffd7178be79a5fdfcba019",
+    "content-hash": "4333cca3db266c2a3760e8ad3a3447de",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -397,32 +397,6 @@
                 "s3"
             ],
             "time": "2016-11-28 11:15:30"
-        },
-        {
-            "name": "frc/batcache",
-            "version": "v1.2-p1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/frc/batcache.git",
-                "reference": "171a3e0180bea1813f2a479e1af9431561234ff2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/frc/batcache/zipball/171a3e0180bea1813f2a479e1af9431561234ff2",
-                "reference": "171a3e0180bea1813f2a479e1af9431561234ff2",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-muplugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "A memcached HTML page cache for WordPress. Fork of the automattic/batcache.",
-            "homepage": "https://github.com/frc/batcache",
-            "time": "2015-10-05 08:58:06"
         },
         {
             "name": "frc/wp-env-heroku-amazon-aws",
@@ -2273,26 +2247,6 @@
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
         },
         {
-            "name": "wpackagist-plugin/limit-login-attempts",
-            "version": "1.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/limit-login-attempts/",
-                "reference": "tags/1.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts.1.7.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/limit-login-attempts/"
-        },
-        {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
             "version": "1.10.2",
             "source": {
@@ -2340,12 +2294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "adf2e944e11fcbc8b665f0b1d5461f7df920404b"
+                "reference": "960199a978308c75926fd9bb4775f7113bf1d777"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/adf2e944e11fcbc8b665f0b1d5461f7df920404b",
-                "reference": "adf2e944e11fcbc8b665f0b1d5461f7df920404b",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/960199a978308c75926fd9bb4775f7113bf1d777",
+                "reference": "960199a978308c75926fd9bb4775f7113bf1d777",
                 "shasum": ""
             },
             "bin": [
@@ -2376,7 +2330,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2016-12-01 08:39:54"
+            "time": "2016-12-09 19:37:38"
         },
         {
             "name": "squizlabs/php_codesniffer",

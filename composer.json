@@ -46,12 +46,10 @@
   ],
   "require": {
     "ext-redis": "*",
-    "frc/batcache": "~1.2-p1",
     "deliciousbrains/wp-amazon-s3-and-cloudfront": "~1.1",
     "wpackagist-plugin/amazon-web-services": "~1.0",
-    "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1.10.1",
+    "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1.10",
     "koodimonni/composer-dropin-installer": "~1.0.2",
-    "wpackagist-plugin/limit-login-attempts": "~1.7.1",
     "tillkruss/redis-object-cache": "dev-frc",
     "frc/wp-env-heroku-cleardb": "~1.0.1",
     "frc/wp-env-heroku-jawsdb": "~1.0.0",
