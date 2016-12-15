@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e803e6d7faffd7178be79a5fdfcba019",
-    "content-hash": "4333cca3db266c2a3760e8ad3a3447de",
+    "hash": "03c45bf9aea40e4d2ce6f82defe96137",
+    "content-hash": "9fd7259cb846a548e15bbf5c8d78fcf8",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -364,39 +364,6 @@
                 "validator"
             ],
             "time": "2016-09-28 07:17:45"
-        },
-        {
-            "name": "deliciousbrains/wp-amazon-s3-and-cloudfront",
-            "version": "1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront.git",
-                "reference": "dea7735f58f113f0a12d582a17016aa2abdd011a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-s3-and-cloudfront/zipball/dea7735f58f113f0a12d582a17016aa2abdd011a",
-                "reference": "dea7735f58f113f0a12d582a17016aa2abdd011a",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0.6"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPLv3"
-            ],
-            "description": "Automatically copies media uploads to Amazon S3 for delivery. Optionally configure Amazon CloudFront for even faster delivery.",
-            "homepage": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront",
-            "keywords": [
-                "amazon-web-services",
-                "cdn",
-                "cloudfront",
-                "plugin",
-                "s3"
-            ],
-            "time": "2016-11-28 11:15:30"
         },
         {
             "name": "frc/wp-env-heroku-amazon-aws",
@@ -2022,48 +1989,6 @@
             "time": "2016-11-14 16:15:57"
         },
         {
-            "name": "tillkruss/redis-object-cache",
-            "version": "dev-frc",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/frc/Redis-Object-Cache.git",
-                "reference": "3ac347982e91d9e1e8c9eccb1c327d10b6f57a4b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/frc/Redis-Object-Cache/zipball/3ac347982e91d9e1e8c9eccb1c327d10b6f57a4b",
-                "reference": "3ac347982e91d9e1e8c9eccb1c327d10b6f57a4b",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.3"
-            },
-            "type": "wordpress-plugin",
-            "autoload-dev": {
-                "files": [
-                    "includes/object-cache.php"
-                ]
-            },
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Till Krüss",
-                    "homepage": "https://till.kruss.me/"
-                }
-            ],
-            "description": "A persistent object cache backend powered by Redis. Supports HHVM's Redis extension, the PECL Redis Extension and the Predis library for PHP.",
-            "homepage": "https://github.com/tillkruss/Redis-Object-Cache",
-            "support": {
-                "source": "https://github.com/frc/Redis-Object-Cache/tree/frc"
-            },
-            "time": "2016-05-03 15:19:23"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -2228,66 +2153,6 @@
                 "wordpress"
             ],
             "time": "2016-08-09 13:25:56"
-        },
-        {
-            "name": "wpackagist-plugin/amazon-web-services",
-            "version": "1.0.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
-                "reference": "tags/1.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-web-services/"
-        },
-        {
-            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.10.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
-        },
-        {
-            "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
-            "version": "0.5.5.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-mu-domain-mapping/",
-                "reference": "tags/0.5.5.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-mu-domain-mapping.0.5.5.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-mu-domain-mapping/"
         }
     ],
     "packages-dev": [
@@ -2417,14 +2282,10 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tillkruss/redis-object-cache": 20,
         "heroku/heroku-buildpack-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "ext-redis": "*",
-        "php": "^7.0"
-    },
+    "platform": [],
     "platform-dev": []
 }
