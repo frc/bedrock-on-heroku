@@ -795,10 +795,10 @@
         },
         {
             "name": "koodimonni-language/core-fi",
-            "version": "4.6.1",
+            "version": "4.7",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.6.1/fi.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.7/fi.zip",
                 "reference": null,
                 "shasum": null
             },
