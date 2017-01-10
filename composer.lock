@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03c45bf9aea40e4d2ce6f82defe96137",
     "content-hash": "9fd7259cb846a548e15bbf5c8d78fcf8",
     "packages": [
         {
@@ -63,20 +62,20 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2016-11-02 18:11:27"
+            "time": "2016-11-02T18:11:27+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "e53f9e5381e70f76e098136343e27d92601eade7"
+                "reference": "91dbca556764dcece45e1ba3aab14de2deaa9fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/e53f9e5381e70f76e098136343e27d92601eade7",
-                "reference": "e53f9e5381e70f76e098136343e27d92601eade7",
+                "url": "https://api.github.com/repos/composer/composer/zipball/91dbca556764dcece45e1ba3aab14de2deaa9fec",
+                "reference": "91dbca556764dcece45e1ba3aab14de2deaa9fec",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +139,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2016-12-23 23:47:04"
+            "time": "2017-01-07T17:08:51+00:00"
         },
         {
             "name": "composer/installers",
@@ -240,7 +239,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-04-13T19:46:30+00:00"
         },
         {
             "name": "composer/semver",
@@ -302,7 +301,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30 16:08:34"
+            "time": "2016-08-30T16:08:34+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -363,7 +362,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2016-09-28 07:17:45"
+            "time": "2016-09-28T07:17:45+00:00"
         },
         {
             "name": "frc/wp-env-heroku-amazon-aws",
@@ -405,7 +404,7 @@
                 "heroku",
                 "wordpress"
             ],
-            "time": "2016-10-27 11:29:27"
+            "time": "2016-10-27T11:29:27+00:00"
         },
         {
             "name": "frc/wp-env-heroku-cleardb",
@@ -447,7 +446,7 @@
                 "mysql",
                 "wordpress"
             ],
-            "time": "2015-10-02 10:51:10"
+            "time": "2015-10-02T10:51:10+00:00"
         },
         {
             "name": "frc/wp-env-heroku-jawsdb",
@@ -489,7 +488,7 @@
                 "mysql",
                 "wordpress"
             ],
-            "time": "2016-08-19 07:15:39"
+            "time": "2016-08-19T07:15:39+00:00"
         },
         {
             "name": "frc/wp-env-heroku-jawsdb-maria",
@@ -534,7 +533,7 @@
                 "source": "https://github.com/frc/wp-env-heroku-jawsdb-maria/tree/v1.0.0",
                 "issues": "https://github.com/frc/wp-env-heroku-jawsdb-maria/issues"
             },
-            "time": "2016-10-07 15:57:43"
+            "time": "2016-10-07T15:57:43+00:00"
         },
         {
             "name": "frc/wp-env-heroku-redis",
@@ -575,7 +574,7 @@
                 "redis",
                 "wordpress"
             ],
-            "time": "2015-08-31 21:24:52"
+            "time": "2015-08-31T21:24:52+00:00"
         },
         {
             "name": "frc/wp-env-heroku-sendgrid",
@@ -616,7 +615,7 @@
                 "sendgrid",
                 "wordpress"
             ],
-            "time": "2015-08-31 22:18:39"
+            "time": "2015-08-31T22:18:39+00:00"
         },
         {
             "name": "frc/wp-harness",
@@ -640,7 +639,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2016-09-14 06:43:22"
+            "time": "2016-09-14T06:43:22+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -677,7 +676,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-06 18:46:46"
+            "time": "2016-12-06T18:46:46+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -725,7 +724,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2015-06-11T15:15:30+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -791,7 +790,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2016-12-22 16:43:46"
+            "time": "2016-12-22T16:43:46+00:00"
         },
         {
             "name": "koodimonni-language/core-fi",
@@ -855,7 +854,7 @@
                 }
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
-            "time": "2016-10-30 19:22:35"
+            "time": "2016-10-30T19:22:35+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -901,7 +900,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2016-07-31 06:18:27"
+            "time": "2016-07-31T06:18:27+00:00"
         },
         {
             "name": "mustangostang/spyc",
@@ -951,7 +950,7 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2016-10-21 00:03:34"
+            "time": "2016-10-21T00:03:34+00:00"
         },
         {
             "name": "nb/oxymel",
@@ -992,7 +991,7 @@
             "keywords": [
                 "xml"
             ],
-            "time": "2013-02-24 15:01:54"
+            "time": "2013-02-24T15:01:54+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1034,7 +1033,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08 17:14:32"
+            "time": "2016-05-08T17:14:32+00:00"
         },
         {
             "name": "psr/log",
@@ -1081,7 +1080,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "ramsey/array_column",
@@ -1126,7 +1125,7 @@
                 "array_column",
                 "column"
             ],
-            "time": "2015-03-20 22:07:39"
+            "time": "2015-03-20T22:07:39+00:00"
         },
         {
             "name": "rmccue/requests",
@@ -1175,7 +1174,7 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2016-10-13 00:11:37"
+            "time": "2016-10-13T00:11:37+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -1232,7 +1231,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01 16:27:06"
+            "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -1280,7 +1279,7 @@
                 "input",
                 "prompt"
             ],
-            "time": "2016-04-18 09:31:41"
+            "time": "2016-04-18T09:31:41+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -1326,7 +1325,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2016-11-14 17:59:58"
+            "time": "2016-11-14T17:59:58+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -1370,7 +1369,7 @@
             "keywords": [
                 "phra"
             ],
-            "time": "2015-10-13 18:44:15"
+            "time": "2015-10-13T18:44:15+00:00"
         },
         {
             "name": "symfony/config",
@@ -1426,7 +1425,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-10 08:21:45"
+            "time": "2016-12-10T08:21:45+00:00"
         },
         {
             "name": "symfony/console",
@@ -1487,7 +1486,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-06 11:59:35"
+            "time": "2016-12-06T11:59:35+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1544,7 +1543,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-30 07:22:48"
+            "time": "2016-07-30T07:22:48+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -1607,7 +1606,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-08 14:41:31"
+            "time": "2016-12-08T14:41:31+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1667,7 +1666,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-13 01:43:15"
+            "time": "2016-10-13T01:43:15+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -1716,7 +1715,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-18 04:28:30"
+            "time": "2016-10-18T04:28:30+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1765,7 +1764,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-13 09:38:12"
+            "time": "2016-12-13T09:38:12+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1824,7 +1823,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/process",
@@ -1873,7 +1872,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-24 00:43:03"
+            "time": "2016-11-24T00:43:03+00:00"
         },
         {
             "name": "symfony/translation",
@@ -1937,7 +1936,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:10:01"
+            "time": "2016-11-18T21:10:01+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1986,7 +1985,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14 16:15:57"
+            "time": "2016-11-14T16:15:57+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2036,7 +2035,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wp-cli/php-cli-tools",
@@ -2086,7 +2085,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2016-02-08 14:34:01"
+            "time": "2016-02-08T14:34:01+00:00"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -2152,7 +2151,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2016-08-09 13:25:56"
+            "time": "2016-08-09T13:25:56+00:00"
         }
     ],
     "packages-dev": [
@@ -2198,7 +2197,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2016-12-09 19:37:38"
+            "time": "2016-12-09T19:37:38+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2276,7 +2275,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-11-30 04:02:31"
+            "time": "2016-11-30T04:02:31+00:00"
         }
     ],
     "aliases": [],
