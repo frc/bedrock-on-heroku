@@ -84,6 +84,10 @@ define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
 define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
 
+if(env('DISTRIBUTION_ID')){
+    define('DISTRIBUTION_ID', env('DISTRIBUTION_ID'));
+}
+
 /**
  * Bootstrap WordPress
  */
