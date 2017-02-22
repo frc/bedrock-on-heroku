@@ -50,7 +50,6 @@
     "frc/wp-env-heroku-redis": "~1.0.0",
     "frc/wp-env-heroku-sendgrid": "~1.0.0",
     "frc/wp-env-heroku-amazon-aws": "~1.1.0",
-    "frc/wp-harness": "^1.0",
     "composer/installers": "~1.0.25",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.7.2",
@@ -60,7 +59,8 @@
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "dev-master",
-    "squizlabs/php_codesniffer": "^2.5.1"
+    "squizlabs/php_codesniffer": "^2.5.1",
+    "frc/wp-harness": "*"
   },
   "extra": {
     "installer-paths": {
@@ -82,7 +82,8 @@
       "rm -rf web/wp/wp-content/themes/*/"
     ],
     "test": [
-      "vendor/bin/phpcs --ignore=web/wp/,web/app/,vendor/,config/ -n -s ."
+      "vendor/bin/phpcs --ignore=web/wp/,web/app/,vendor/,config/ -n -s .",
+      "prove vendor/frc/wp-harness/t/base/"
     ]
   }
 }
