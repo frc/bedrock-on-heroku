@@ -30,3 +30,4 @@ node_modules
 # Vagrant
 bin
 .vagrant
+/web/app/db.php

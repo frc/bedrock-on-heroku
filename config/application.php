@@ -35,6 +35,9 @@ if (file_exists($env_config)) {
  *
  */
 define('WP_CACHE', env('WP_CACHE'));
+define('CONCATENATE_SCRIPTS', env('CONCATENATE_SCRIPTS'));
+define('COMPRESS_SCRIPTS', env('COMPRESS_SCRIPTS'));
+define('COMPRESS_CSS', env('COMPRESS_CSS'));
 
 /**
  * URLs
