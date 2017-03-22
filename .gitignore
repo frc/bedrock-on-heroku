@@ -31,8 +31,3 @@ node_modules
 bin
 .vagrant
 /web/app/db.php
-
-web/manifest.json
-web/browserconfig.xml
-web/*.png
-web/*.ico
