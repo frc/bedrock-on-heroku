@@ -47,7 +47,7 @@
   "require": {
     "ext-redis": "*",
     "frc/batcache": "~1.3-a1",
-    "koodimonni/composer-dropin-installer": "~1.0.2",
+    "koodimonni/composer-dropin-installer": "~1.1",
     "deliciousbrains/wp-amazon-s3-and-cloudfront": "dev-frc",
     "wpackagist-plugin/amazon-web-services": "~0.3.2",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1.6.2",
