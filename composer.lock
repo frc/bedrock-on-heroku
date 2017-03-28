@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa7d10260521503b9c7e2ca27af76afd",
+    "content-hash": "e4336a5fd60c99050b6910592986f85b",
     "packages": [
         {
             "name": "composer/installers",
@@ -189,6 +189,47 @@
                 "wordpress"
             ],
             "time": "2015-10-02T10:51:10+00:00"
+        },
+        {
+            "name": "frc/wp-env-heroku-custom-php-constant",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/frc/wp-env-heroku-custom-php-constant.git",
+                "reference": "e516cb0428af2951950ba9cc37133e956ec42ce0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/frc/wp-env-heroku-custom-php-constant/zipball/e516cb0428af2951950ba9cc37133e956ec42ce0",
+                "reference": "e516cb0428af2951950ba9cc37133e956ec42ce0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/PHPConst.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josep Roca",
+                    "email": "josep.roca@frantic.com"
+                }
+            ],
+            "description": "Allow PHP constants to be defined through Heroku environment, as long as the environment key starts with FRC_PHP_CONST_ prefix. The prefix gets removed when the constant is set in the PHP side. For example, an environment variable FRC_PHP_CONST_PLL_COOKIE will define the PHP constant PLL_COOKIE within WordPress (with the value coming from the env key)",
+            "keywords": [
+                "constant",
+                "heroku",
+                "wordpress"
+            ],
+            "time": "2017-03-28T13:21:40+00:00"
         },
         {
             "name": "frc/wp-env-heroku-jawsdb",
@@ -987,12 +1028,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "e0499a7fdffd56f46534a037a6c48d65cef4e645"
+                "reference": "727aa850a02a7af94c9225237464be8e8c8ff6db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/e0499a7fdffd56f46534a037a6c48d65cef4e645",
-                "reference": "e0499a7fdffd56f46534a037a6c48d65cef4e645",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/727aa850a02a7af94c9225237464be8e8c8ff6db",
+                "reference": "727aa850a02a7af94c9225237464be8e8c8ff6db",
                 "shasum": ""
             },
             "bin": [
@@ -1023,7 +1064,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2017-02-20T15:05:49+00:00"
+            "time": "2017-03-27T23:33:27+00:00"
         },
         {
             "name": "justinrainbow/json-schema",

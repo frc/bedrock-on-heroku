@@ -35,9 +35,6 @@ if (file_exists($env_config)) {
  *
  */
 define('WP_CACHE', env('WP_CACHE'));
-define('CONCATENATE_SCRIPTS', env('CONCATENATE_SCRIPTS'));
-define('COMPRESS_SCRIPTS', env('COMPRESS_SCRIPTS'));
-define('COMPRESS_CSS', env('COMPRESS_CSS'));
 
 /**
  * URLs
@@ -85,11 +82,6 @@ define('NONCE_SALT', env('NONCE_SALT'));
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
-define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
-
-if(env('DISTRIBUTION_ID')){
-    define('DISTRIBUTION_ID', env('DISTRIBUTION_ID'));
-}
 
 /**
  * Bootstrap WordPress
@@ -119,6 +111,3 @@ if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     define('BLOG_ID_CURRENT_SITE', 1);
     define('SUNRISE', true);
 }
-/*
-
- */
