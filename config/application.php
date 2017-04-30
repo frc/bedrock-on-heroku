@@ -21,9 +21,9 @@ if (file_exists($root_dir . '/.env')) {
 
 /**
  * Set up our global environment constant and load its config first
- * Default: development
+ * Default: staging
  */
-define('WP_ENV', env('WP_ENV') ?: 'development');
+define('WP_ENV', env('WP_ENV') ?: 'staging');
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
