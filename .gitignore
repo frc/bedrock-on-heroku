@@ -1,12 +1,4 @@
-# Application
-web/app/plugins/*
-!web/app/plugins/.gitkeep
-web/app/mu-plugins/*/
-web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/.gitkeep
-web/app/languages
-web/app/themes
+
 
 # WordPress
 web/wp
@@ -30,9 +22,11 @@ node_modules
 # Vagrant
 bin
 .vagrant
-/web/app/db.php
+/web/
+!/web/index.php
+!/web/.user.ini
+!/web/wp-config.php
+!/web/app/
+!/web/app/uploads/.gitkeep
+!/web/app/plugins/.gitkeep
 
-web/manifest.json
-web/browserconfig.xml
-web/*.png
-web/*.ico
