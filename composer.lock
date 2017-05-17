@@ -402,20 +402,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7.4.1",
+            "version": "4.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ca36dbed576d21681efe92851f411ac2315a0ea5"
+                "reference": "381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ca36dbed576d21681efe92851f411ac2315a0ea5",
-                "reference": "ca36dbed576d21681efe92851f411ac2315a0ea5",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819",
+                "reference": "381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.7.4.1",
+                "johnpbloch/wordpress-core": "4.7.5",
                 "johnpbloch/wordpress-core-installer": "~0.2",
                 "php": ">=5.3.2"
             },
@@ -437,20 +437,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-05-01T23:34:21+00:00"
+            "time": "2017-05-16T22:48:14+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.7.4.1",
+            "version": "4.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "637b1c6e997b28bf8767e6c87611f869e12e246e"
+                "reference": "9a88a4b4c65f689d78789ef6ff77a7ca0239ec02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/637b1c6e997b28bf8767e6c87611f869e12e246e",
-                "reference": "637b1c6e997b28bf8767e6c87611f869e12e246e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9a88a4b4c65f689d78789ef6ff77a7ca0239ec02",
+                "reference": "9a88a4b4c65f689d78789ef6ff77a7ca0239ec02",
                 "shasum": ""
             },
             "require": {
@@ -474,7 +474,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-05-01T23:28:59+00:00"
+            "time": "2017-05-16T22:48:08+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -800,16 +800,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd"
+                "reference": "489e09ee6c3ba431fbeeef9147afdaeb6f91b647"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd",
-                "reference": "7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd",
+                "url": "https://api.github.com/repos/composer/composer/zipball/489e09ee6c3ba431fbeeef9147afdaeb6f91b647",
+                "reference": "489e09ee6c3ba431fbeeef9147afdaeb6f91b647",
                 "shasum": ""
             },
             "require": {
@@ -873,7 +873,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-03-10T08:29:45+00:00"
+            "time": "2017-05-17T06:17:53+00:00"
         },
         {
             "name": "composer/semver",
@@ -1068,16 +1068,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "e3c9bccdc38bbd09bcac0131c00f3be58368b416"
+                "reference": "429be236f296ca249d61c65649cdf2652f4a5e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/e3c9bccdc38bbd09bcac0131c00f3be58368b416",
-                "reference": "e3c9bccdc38bbd09bcac0131c00f3be58368b416",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/429be236f296ca249d61c65649cdf2652f4a5e80",
+                "reference": "429be236f296ca249d61c65649cdf2652f4a5e80",
                 "shasum": ""
             },
             "require": {
@@ -1086,7 +1086,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.1",
                 "json-schema/json-schema-test-suite": "1.2.0",
-                "phpdocumentor/phpdocumentor": "~2",
+                "phpdocumentor/phpdocumentor": "^2.7",
                 "phpunit/phpunit": "^4.8.22"
             },
             "bin": [
@@ -1131,7 +1131,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-03-22T22:43:35+00:00"
+            "time": "2017-05-16T21:06:09+00:00"
         },
         {
             "name": "mustache/mustache",
