@@ -53,7 +53,7 @@
     "frc/wp-env-heroku-custom-php-constant": "~1.0.2",
     "composer/installers": "~1.0.25",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "~4.7.3",
+    "johnpbloch/wordpress": "~4.8",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "koodimonni-language/core-fi": "*"
