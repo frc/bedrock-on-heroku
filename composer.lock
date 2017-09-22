@@ -530,10 +530,10 @@
         },
         {
             "name": "koodimonni-language/core-fi",
-            "version": "4.8.1",
+            "version": "4.8.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.8.1/fi.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.8.2/fi.zip",
                 "reference": null,
                 "shasum": null
             },
