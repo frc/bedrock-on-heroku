@@ -56,12 +56,12 @@
     "johnpbloch/wordpress": "~4.8",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
+    "frc/wp-harness": "*",
     "koodimonni-language/core-fi": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "dev-master",
-    "squizlabs/php_codesniffer": "^2.5.1",
-    "frc/wp-harness": "*"
+    "squizlabs/php_codesniffer": "^2.5.1"
   },
   "extra": {
     "installer-paths": {
