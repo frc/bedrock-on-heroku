@@ -78,10 +78,10 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "rm -rf web/wp/wp-content/themes/*/"
+      "rm -rf web/wp/wp-content/themes/*/; rm -rf web/wp/wp-content/plugins/*/; rm -rf web/wp/wp-content/plugins/hello.php"
     ],
     "post-install-cmd": [
-      "rm -rf web/wp/wp-content/themes/*/"
+      "rm -rf web/wp/wp-content/themes/*/; rm -rf web/wp/wp-content/plugins; rm -rf web/wp/wp-content/plugins/hello.php"
     ],
     "test": [
       "vendor/bin/phpcs --ignore=web/wp/,web/app/,vendor/,config/ -n -s .",
