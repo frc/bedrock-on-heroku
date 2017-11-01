@@ -402,16 +402,16 @@
         },
         {
             "name": "frc/batcache",
-            "version": "v1.3-a1",
+            "version": "v1.3-a2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/frc/batcache.git",
-                "reference": "170e3390dbfbac0f50b5f5b5c1895641004a9c8d"
+                "reference": "49ecb51a1710e9559b870fbdecda3c7015e54abb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/frc/batcache/zipball/170e3390dbfbac0f50b5f5b5c1895641004a9c8d",
-                "reference": "170e3390dbfbac0f50b5f5b5c1895641004a9c8d",
+                "url": "https://api.github.com/repos/frc/batcache/zipball/49ecb51a1710e9559b870fbdecda3c7015e54abb",
+                "reference": "49ecb51a1710e9559b870fbdecda3c7015e54abb",
                 "shasum": ""
             },
             "require": {
@@ -424,7 +424,7 @@
             ],
             "description": "A memcached HTML page cache for WordPress. Fork of the automattic/batcache.",
             "homepage": "https://github.com/frc/batcache",
-            "time": "2016-11-03T13:41:16+00:00"
+            "time": "2017-10-30T07:18:18+00:00"
         },
         {
             "name": "frc/wp-env-heroku-amazon-aws",
@@ -701,20 +701,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.2",
+            "version": "4.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "d500aae1793990e4874cf794b6cf88ce60a38918"
+                "reference": "d5bc0df53dd6e6e43082f47ccee89aab2049bc23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d500aae1793990e4874cf794b6cf88ce60a38918",
-                "reference": "d500aae1793990e4874cf794b6cf88ce60a38918",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d5bc0df53dd6e6e43082f47ccee89aab2049bc23",
+                "reference": "d5bc0df53dd6e6e43082f47ccee89aab2049bc23",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.2",
+                "johnpbloch/wordpress-core": "4.8.3",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -736,27 +736,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-09-19T22:27:16+00:00"
+            "time": "2017-10-31T16:40:07+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.2",
+            "version": "4.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "706faa0d7b6b57a25d4acd18331dd71dfa6b01cf"
+                "reference": "949e279f9752b458d70288636a77d2b8f66801f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/706faa0d7b6b57a25d4acd18331dd71dfa6b01cf",
-                "reference": "706faa0d7b6b57a25d4acd18331dd71dfa6b01cf",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/949e279f9752b458d70288636a77d2b8f66801f6",
+                "reference": "949e279f9752b458d70288636a77d2b8f66801f6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.8.2"
+                "wordpress/core-implementation": "4.8.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -776,7 +776,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-09-19T22:27:11+00:00"
+            "time": "2017-10-31T16:39:59+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -829,16 +829,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.5",
+            "version": "5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "0d4fda8efdf216ade084a7f0aad5637572ce9835"
+                "reference": "d283e11b6e14c6f4664cf080415c4341293e5bbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/0d4fda8efdf216ade084a7f0aad5637572ce9835",
-                "reference": "0d4fda8efdf216ade084a7f0aad5637572ce9835",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/d283e11b6e14c6f4664cf080415c4341293e5bbd",
+                "reference": "d283e11b6e14c6f4664cf080415c4341293e5bbd",
                 "shasum": ""
             },
             "require": {
@@ -891,14 +891,14 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-10-10T13:22:37+00:00"
+            "time": "2017-10-21T13:15:38+00:00"
         },
         {
             "name": "koodimonni-language/core-fi",
-            "version": "4.8.2",
+            "version": "4.8.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.8.2/fi.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.8.3/fi.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1872,16 +1872,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
                 "shasum": ""
             },
             "require": {
@@ -1893,7 +1893,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -1927,7 +1927,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/process",
@@ -2387,12 +2387,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "880d625f715680aca2969562b8a5a69f4a289b7f"
+                "reference": "8288ddb4b717019f5e39db384e3a9a5b41d73e93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/880d625f715680aca2969562b8a5a69f4a289b7f",
-                "reference": "880d625f715680aca2969562b8a5a69f4a289b7f",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/8288ddb4b717019f5e39db384e3a9a5b41d73e93",
+                "reference": "8288ddb4b717019f5e39db384e3a9a5b41d73e93",
                 "shasum": ""
             },
             "bin": [
@@ -2423,20 +2423,20 @@
                 "nginx",
                 "php"
             ],
-            "time": "2017-10-04T22:42:04+00:00"
+            "time": "2017-10-28T00:17:41+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "3c2d0a0fe39684ba0c1eb842a6a775d0b938d699"
+                "reference": "d667e245d5dcd4d7bf80f26f2c947d476b66213e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/3c2d0a0fe39684ba0c1eb842a6a775d0b938d699",
-                "reference": "3c2d0a0fe39684ba0c1eb842a6a775d0b938d699",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d667e245d5dcd4d7bf80f26f2c947d476b66213e",
+                "reference": "d667e245d5dcd4d7bf80f26f2c947d476b66213e",
                 "shasum": ""
             },
             "require": {
@@ -2474,7 +2474,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-09-19T22:47:14+00:00"
+            "time": "2017-10-16T22:40:25+00:00"
         }
     ],
     "aliases": [],
