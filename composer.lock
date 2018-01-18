@@ -876,10 +876,10 @@
         },
         {
             "name": "koodimonni-language/core-fi",
-            "version": "4.9.1",
+            "version": "4.9.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.9.1/fi.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.9.2/fi.zip",
                 "reference": null,
                 "shasum": null
             },
