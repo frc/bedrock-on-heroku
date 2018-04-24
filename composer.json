@@ -51,7 +51,7 @@
     "frc/wp-env-heroku-sendgrid": "~1.0.0",
     "frc/wp-env-heroku-amazon-aws": "~1.1.0",
     "frc/wp-env-heroku-custom-php-constant": "~1.0.2",
-    "composer/installers": "~1.0.25",
+    "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.9",
     "oscarotero/env": "^1.0",
