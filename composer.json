@@ -28,10 +28,6 @@
   },
   "repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/frc/wp-env-heroku-jawsdb-maria"
-    },
-    {
       "type": "composer",
       "url": "https://wpackagist.org"
     },
@@ -44,6 +40,7 @@
     "ext-mbstring": "*",
     "ext-gd": "*",
     "koodimonni/composer-dropin-installer": "~1.1",
+    "frc/wp-env-heroku-database": "~1.0.0",
     "frc/wp-env-heroku-cleardb": "~1.0.1",
     "frc/wp-env-heroku-jawsdb": "~1.0.0",
     "frc/wp-env-heroku-jawsdb-maria": "~1.0.0",
