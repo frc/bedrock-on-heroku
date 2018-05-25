@@ -4043,12 +4043,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "c295fcefa13c67fd678839cc5ae4bb7bc7ea9d8e"
+                "reference": "2840e48240769316777d6548409aa75fef16de09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/c295fcefa13c67fd678839cc5ae4bb7bc7ea9d8e",
-                "reference": "c295fcefa13c67fd678839cc5ae4bb7bc7ea9d8e",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/2840e48240769316777d6548409aa75fef16de09",
+                "reference": "2840e48240769316777d6548409aa75fef16de09",
                 "shasum": ""
             },
             "bin": [
@@ -4079,7 +4079,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2018-04-26T13:18:31+00:00"
+            "time": "2018-05-24T20:47:48+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
