@@ -50,11 +50,11 @@
     "frc/wp-env-heroku-custom-php-constant": "~1.0.2",
     "composer/installers": "~1.0.25",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "~4.9",
+    "johnpbloch/wordpress": "~4.9.8",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "frc/wp-harness": "*",
-    "koodimonni-language/core-fi": "*"
+    "koodimonni-language/core-fi": "~4.9.8"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "dev-master",
