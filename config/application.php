@@ -43,14 +43,20 @@ if (array_key_exists('HTTP_X_FORWARDED_PROTO',$_SERVER) && $_SERVER["HTTP_X_FORW
 $_server_http_host_scheme = array_key_exists('HTTPS',$_SERVER) && $_SERVER['HTTPS'] == 'on' ? 'https' : 'http';
 $_server_http_host_name = array_key_exists('HTTP_HOST',$_SERVER) ? $_SERVER['HTTP_HOST'] : 'localhost';
 $_server_http_url = "$_server_http_host_scheme://$_server_http_host_name";
-define('WP_HOME', env('WP_HOME') ?: "$_server_http_url");
-define('WP_SITEURL', env('WP_SITEURL') ?: "$_server_http_url/wp");
+define('WP_HOME', (env('WP_HOME') ?: "$_server_http_url"));
+define('WP_SITEURL', (env('WP_SITEURL') ?: "$_server_http_url/wp"));
 
 /**
  * Custom Content Directory
  */
 define('CONTENT_DIR', '/app');
-define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
+
+if (defined('WP_CLI') && WP_CLI) {
+    define('WP_CONTENT_DIR', dirname( __FILE__ ) . '/../web' . CONTENT_DIR);
+}else{
+    define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
+}
+
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 
 /**
@@ -111,6 +117,3 @@ if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     define('BLOG_ID_CURRENT_SITE', 1);
     define('SUNRISE', true);
 }
-/*
-
- */
