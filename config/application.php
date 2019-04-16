@@ -108,12 +108,18 @@ if (!defined('ABSPATH')) {
  * Reauth is required on all sites in the network after this.
  */
 define('WP_ALLOW_MULTISITE', env('WP_ALLOW_MULTISITE'));
+
 if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     define('MULTISITE', true);
-    define('SUBDOMAIN_INSTALL', true);
-    define('DOMAIN_CURRENT_SITE', env('WP_MULTISITE_MAIN_DOMAIN'));
+    define('SUBDOMAIN_INSTALL', env('SUBDOMAIN_INSTALL') ?: true);
     define('PATH_CURRENT_SITE', '/');
     define('SITE_ID_CURRENT_SITE', 1);
     define('BLOG_ID_CURRENT_SITE', 1);
-    define('SUNRISE', true);
+
+    if (array_key_exists('HTTP_HOST', $_SERVER) && strpos($_SERVER['HTTP_HOST'], 'frc.io') !== false) {
+        define('DOMAIN_CURRENT_SITE', env('WP_MULTISITE_MAIN_DOMAIN'));
+    } else {
+        $_server_http_host_name = array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : env('WP_MULTISITE_MAIN_DOMAIN') ?: 'localhost.frc.io';
+        define('DOMAIN_CURRENT_SITE', $_server_http_host_name);
+    }
 }
