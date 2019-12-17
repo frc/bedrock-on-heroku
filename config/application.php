@@ -115,6 +115,11 @@ if (file_exists($env_config)) {
     require_once $env_config;
 }
 
+$frc_config = $root_dir . '/../config/wordpress/application.php';
+if (file_exists($frc_config)) {
+    require_once $frc_config;
+}
+
 Config::apply();
 
 /**
