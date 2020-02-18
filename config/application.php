@@ -113,7 +113,7 @@ if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     if (array_key_exists('HTTP_HOST', $_SERVER) && strpos($_SERVER['HTTP_HOST'], 'localhost.frc.io') !== false && SUBDOMAIN_INSTALL) {
         define('DOMAIN_CURRENT_SITE', env('WP_MULTISITE_MAIN_DOMAIN'));
     } else {
-        $_server_http_host_name = array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : env('WP_MULTISITE_MAIN_DOMAIN') ?: 'localhost.frc.io';
+        $_server_http_host_name = array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : (env('WP_MULTISITE_MAIN_DOMAIN') ?: 'localhost.frc.io');
         define('DOMAIN_CURRENT_SITE', $_server_http_host_name);
     }
 }
