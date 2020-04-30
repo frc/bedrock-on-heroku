@@ -1,6 +1,25 @@
 ### Head
 
-* Add `WP_DEBUG_LOG` ([#499](https://github.com/roots/bedrock/pull/499))
+### 1.13.4: 2020-04-24
+
+* fix(mu-plugins): Bump bedrock-autoloader version ([#512](https://github.com/roots/bedrock/pull/512))
+* fix(mu-plugins): A more sane fix for #510 ([#512](https://github.com/roots/bedrock/pull/512))
+
+### 1.13.3: 2020-04-24
+
+* enhance(ci): Add CircleCI workflow for PHP 7.4 ([#510](https://github.com/roots/bedrock/pull/511))
+* fix(mu-plugins): Fix invalid array access notice on 7.4 ([#510](https://github.com/roots/bedrock/pull/510))
+* enhance(composer): Add `only` option to wpackagist.org repository ([#508](https://github.com/roots/bedrock/pull/508))
+
+### 1.13.2: 2020-04-01
+
+* chore(deps): Bump WordPress to 5.4 ([#502](https://github.com/roots/bedrock/pull/502))
+* chore(deps): Bump vlucas/phpdotenv ([#501](https://github.com/roots/bedrock/pull/502))
+* enhance(config): Add `WP_DEBUG_LOG` ([#499](https://github.com/roots/bedrock/pull/499))
+
+### 1.13.1: 2020-02-19
+
+* fix(env): Makes .env.example compatible with breaking changes from vlucas/phpdotenv 4.x ([#493](https://github.com/roots/bedrock/pull/493))
 
 ### 1.13.0: 2020-02-17
 

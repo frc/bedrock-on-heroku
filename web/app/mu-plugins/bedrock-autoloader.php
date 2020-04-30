@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Bedrock Autoloader
- * Plugin URI: https://github.com/roots/bedrock/
- * Description: An autoloader that enables standard plugins to be required just like must-use plugins. The autoloaded plugins are included during mu-plugin loading. An asterisk (*) next to the name of the plugin designates the plugins that have been autoloaded.
- * Version: 1.0.0
- * Author: Roots
- * Author URI: https://roots.io/
- * License: MIT License
+ * Plugin Name:  Bedrock Autoloader
+ * Plugin URI:   https://github.com/roots/bedrock/
+ * Description:  An autoloader that enables standard plugins to be required just like must-use plugins. The autoloaded plugins are included during mu-plugin loading. An asterisk (*) next to the name of the plugin designates the plugins that have been autoloaded.
+ * Version:      1.0.1
+ * Author:       Roots
+ * Author URI:   https://roots.io/
+ * License:      MIT License
  */
 
 namespace Roots\Bedrock;
@@ -117,7 +117,7 @@ class Autoloader
      *
      * @param  bool    $show Whether to show the advanced plugins for the specified plugin type.
      * @param  string  $type The plugin type, i.e., `mustuse` or `dropins`
-     * @return bool We return `false` to prevent WordPress from overriding our work
+     * @return bool    We return `false` to prevent WordPress from overriding our work
      */
     public function showInAdmin($show, $type)
     {
@@ -173,7 +173,7 @@ class Autoloader
         $this->autoPlugins = get_plugins($this->relativePath);
         $this->muPlugins   = get_mu_plugins();
         $plugins           = array_diff_key($this->autoPlugins, $this->muPlugins);
-        $rebuild           = !is_array($this->cache['plugins']);
+        $rebuild           = !(isset($this->cache['plugins']) && is_array($this->cache['plugins']));
         $this->activated   = $rebuild ? $plugins : array_diff_key($plugins, $this->cache['plugins']);
         $this->cache       = ['plugins' => $plugins, 'count' => $this->countPlugins()];
 

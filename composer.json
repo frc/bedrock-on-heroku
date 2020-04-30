@@ -26,13 +26,14 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://wpackagist.org"
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     }
   ],
   "require": {
     "php": ">=7.1",
     "composer/installers": "^1.8",
-    "vlucas/phpdotenv": "^4.1.0",
+    "vlucas/phpdotenv": "^4.1.3",
     "oscarotero/env": "^1.2.0",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0"
