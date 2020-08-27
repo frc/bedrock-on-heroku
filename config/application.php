@@ -9,6 +9,7 @@
  */
 
 use Roots\WPConfig\Config;
+use function Env\env;
 
 /**
  * Directory containing all of the site's files
@@ -23,11 +24,6 @@ $root_dir = dirname(__DIR__);
  * @var string
  */
 $webroot_dir = $root_dir . '/web';
-
-/**
- * Expose global env() function from oscarotero/env
- */
-Env::init();
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
@@ -69,15 +65,6 @@ Config::define('DB_HOST', env('DB_HOST') ?: 'localhost');
 Config::define('DB_CHARSET', 'utf8mb4');
 Config::define('DB_COLLATE', '');
 $table_prefix = env('DB_PREFIX') ?: 'wp_';
-
-if (env('DATABASE_URL')) {
-    $dsn = (object) parse_url(env('DATABASE_URL'));
-
-    Config::define('DB_NAME', substr($dsn->path, 1));
-    Config::define('DB_USER', $dsn->user);
-    Config::define('DB_PASSWORD', isset($dsn->pass) ? $dsn->pass : null);
-    Config::define('DB_HOST', isset($dsn->port) ? "{$dsn->host}:{$dsn->port}" : $dsn->host);
-}
 
 /**
  * Authentication Unique Keys and Salts
