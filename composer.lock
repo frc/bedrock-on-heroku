@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "735cc02c9ced2adffcefd226ed20a99b",
+    "content-hash": "cb95be2f41597ab9ec8cb068419f21f9",
     "packages": [
         {
             "name": "composer/installers",
@@ -135,34 +135,27 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v2.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3"
+                "reference": "4ab45ce5c1f2c62549208426bfa20a3d5fa008c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3",
-                "reference": "0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/4ab45ce5c1f2c62549208426bfa20a3d5fa008c6",
+                "reference": "4ab45ce5c1f2c62549208426bfa20a3d5fa008c6",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.16",
-                "phpunit/phpunit": "^7.0"
+                "php": ">=5.2"
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Env\\": "src/"
-                },
-                "files": [
-                    "src/env_function.php"
-                ]
+                "psr-0": {
+                    "Env": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -181,7 +174,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2020-06-11T10:59:27+00:00"
+            "time": "2019-04-03T18:28:43+00:00"
         },
         {
             "name": "phpoption/phpoption",
