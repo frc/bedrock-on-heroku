@@ -9,6 +9,7 @@
  */
 
 use Roots\WPConfig\Config;
+use function Env\env;
 
 /**
  * Directory containing all of the site's files
