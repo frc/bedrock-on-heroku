@@ -24,15 +24,22 @@ $root_dir = dirname(__DIR__);
  */
 $webroot_dir = $root_dir . '/web';
 
-/**	
- * Expose global env() function from oscarotero/env	
- */	
-Env::init();
+if (!function_exists('env')) {
+    /**
+     * Backward-compatible env() helper after removing Env::init().
+     */
+    function env($key, $default = null)
+    {
+        $value = getenv($key);
+
+        return $value === false ? $default : $value;
+    }
+}
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
  */
-$dotenv = Dotenv\Dotenv::createImmutable($root_dir);
+$dotenv = Dotenv\Dotenv::createUnsafeImmutable($root_dir);
 if (file_exists($root_dir . '/.env')) {
     $dotenv->load();
 }
