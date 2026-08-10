@@ -56,7 +56,7 @@
     "frc/wp-env-heroku-redis": "*",
     "frc/wp-env-heroku-sendgrid": "~1.0.0",
     "frc/wp-harness": "*",
-    "johnpbloch/wordpress": "~6.0",
+    "johnpbloch/wordpress": "~7.0",
     "koodimonni-language/core-fi": "*",
     "koodimonni/composer-dropin-installer": "~1.1",
     "oscarotero/env": "^2.1",
